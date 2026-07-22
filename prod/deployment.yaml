@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: production-container
-        image: us-west1-docker.pkg.dev/qwiklabs-gcp-04-e13158c0fbd0/my-repository/hello-app:v1.0
+        image: us-west1-docker.pkg.dev/qwiklabs-gcp-04-e13158c0fbd0/my-repository/hello-app:v2.0
         ports:
         - containerPort: 8080
